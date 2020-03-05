@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NuGet.CommandLine/5.4.0": {
+        "type": "package"
+      },
+      "NuGet.Frameworks/5.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NuGet.CommandLine/5.4.0": {
+      "sha512": "D4njtgoqC4iDpC3kRQB7DJBT2PfoJ+fAR1b7VKny9gfVDMrYUATBiLUeI/GPVMZlU5N01pCLCA+A4ZW4dvDaXA==",
+      "type": "package",
+      "path": "nuget.commandline/5.4.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "nuget.commandline.5.4.0.nupkg.sha512",
+        "nuget.commandline.nuspec",
+        "tools/NuGet.exe",
+        "tools/NuGet.pdb"
+      ]
+    },
+    "NuGet.Frameworks/5.4.0": {
+      "sha512": "k6AdNKv5w9f4eXVJMu/Z+e7+mypiCG8u3fsPH5liGl2RqAIjazOb0Ig9/oz8Zh8c5W8KEcrP4GVJkXDuABkkVg==",
+      "type": "package",
+      "path": "nuget.frameworks/5.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NuGet.Frameworks.dll",
+        "lib/net40/NuGet.Frameworks.xml",
+        "lib/net472/NuGet.Frameworks.dll",
+        "lib/net472/NuGet.Frameworks.xml",
+        "lib/netstandard2.0/NuGet.Frameworks.dll",
+        "lib/netstandard2.0/NuGet.Frameworks.xml",
+        "nuget.frameworks.5.4.0.nupkg.sha512",
+        "nuget.frameworks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NuGet.CommandLine >= 5.4.0",
+      "NuGet.Frameworks >= 5.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\joan.miquel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\joan.miquel\\source\\repos\\dockertest\\dockertest\\dockertest.csproj",
+      "projectName": "dockertest",
+      "projectPath": "C:\\Users\\joan.miquel\\source\\repos\\dockertest\\dockertest\\dockertest.csproj",
+      "packagesPath": "C:\\Users\\joan.miquel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joan.miquel\\source\\repos\\dockertest\\dockertest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\joan.miquel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "NuGet.CommandLine": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.4.0, )"
+          },
+          "NuGet.Frameworks": {
+            "target": "Package",
+            "version": "[5.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

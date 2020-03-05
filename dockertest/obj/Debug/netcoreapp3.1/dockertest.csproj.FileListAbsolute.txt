@@ -1,0 +1,13 @@
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\dockertest.exe
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\dockertest.deps.json
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\dockertest.runtimeconfig.json
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\dockertest.runtimeconfig.dev.json
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\dockertest.dll
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\dockertest.pdb
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\obj\Debug\netcoreapp3.1\dockertest.csprojAssemblyReference.cache
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\obj\Debug\netcoreapp3.1\dockertest.AssemblyInfoInputs.cache
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\obj\Debug\netcoreapp3.1\dockertest.AssemblyInfo.cs
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\obj\Debug\netcoreapp3.1\dockertest.csproj.CopyComplete
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\obj\Debug\netcoreapp3.1\dockertest.dll
+C:\Users\joan.miquel\source\repos\dockertest\dockertest\obj\Debug\netcoreapp3.1\dockertest.pdb

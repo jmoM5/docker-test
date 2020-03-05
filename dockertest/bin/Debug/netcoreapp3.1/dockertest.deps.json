@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "dockertest/1.0.0": {
+        "dependencies": {
+          "NuGet.CommandLine": "5.4.0",
+          "NuGet.Frameworks": "5.4.0"
+        },
+        "runtime": {
+          "dockertest.dll": {}
+        }
+      },
+      "NuGet.CommandLine/5.4.0": {},
+      "NuGet.Frameworks/5.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "5.4.0.3",
+            "fileVersion": "5.4.0.6315"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dockertest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NuGet.CommandLine/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D4njtgoqC4iDpC3kRQB7DJBT2PfoJ+fAR1b7VKny9gfVDMrYUATBiLUeI/GPVMZlU5N01pCLCA+A4ZW4dvDaXA==",
+      "path": "nuget.commandline/5.4.0",
+      "hashPath": "nuget.commandline.5.4.0.nupkg.sha512"
+    },
+    "NuGet.Frameworks/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6AdNKv5w9f4eXVJMu/Z+e7+mypiCG8u3fsPH5liGl2RqAIjazOb0Ig9/oz8Zh8c5W8KEcrP4GVJkXDuABkkVg==",
+      "path": "nuget.frameworks/5.4.0",
+      "hashPath": "nuget.frameworks.5.4.0.nupkg.sha512"
+    }
+  }
+}
